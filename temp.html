@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="bootstrap.min.css" media="screen">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="styles.css" media="screen">
+    <link rel="stylesheet" href="bootstrap.min.css" media="screen">
 
   </head>
 
@@ -31,7 +31,7 @@
               <span class="icon-bar"></span>
             </button>
             <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Lattitude</a>
+              <a class="navbar-brand" href="index.html" id="logo">Lattitude</a>
             </div>
           </div>
 
@@ -61,11 +61,10 @@
       <section class="row">
         <div class="col-md-8">
           <article class="description-content">
-            <h1 class="description-header">Summary: Latitude vs. X</h1>
+            <h1 class="description-header">Max Temperature</h1>
             <hr class="description-hr"/>
-            <img src="Temperature_(F)_vs._Latitude_(Today).png" alt="" id="description-image"/>
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+            <img src="Temperature_(F)_vs._Latitude_(Today).png" alt="" class="img-responsive"/>
+            <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
           </article>
         </div>
         <div class="col-md-4">
